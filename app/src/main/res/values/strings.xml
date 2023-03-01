@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FME</string>
+    <string name="depart">Department of freshman engineering R20 regulation 1 semester</string>
+    <string name="cse">computer science and engineering</string>
+    <string name="cseai">cse(ai)</string>
+    <string name="cseds">cse(ds)</string>
+    <string name="ece">eletronics and communication engineering</string>
+    <string name="eee">electrical and eletronic engineering</string>
+    <string name="civil">civil engineering</string>
+    <string name="mech">mechanical engineering</string>
+    <string name="sem1">semester 1</string>
+    <string name="sem2">semester 2</string>
+</resources>
