@@ -8,7 +8,7 @@
         android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".ai_sem1" android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/t1"
             android:layout_width="match_parent"
             android:layout_height="77dp"
             android:background="#A45A2929"

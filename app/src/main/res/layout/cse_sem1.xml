@@ -24,7 +24,7 @@
         <ScrollView
             android:id="@+id/scrollView"
             android:layout_width="fill_parent"
-            android:layout_height="653dp"
+            android:layout_height="match_parent"
             android:layout_marginTop="10dp">
 
             <LinearLayout
@@ -53,11 +53,10 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius1"
                     android:shadowRadius="10"
-                    android:text="@string/sem1"
-                    android:textSize="20sp"
-                    app:backgroundTint="@color/purple_200" />
+                    android:text="@string/CNT"
+                    android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/b2"
@@ -66,8 +65,8 @@
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius1"
-                    android:text="@string/sem2"
+                    android:background="@drawable/radius4"
+                    android:text="@string/phy"
                     android:textSize="20sp"
                     app:backgroundTint="@color/white" />
 
@@ -80,7 +79,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/radius"
                     android:shadowRadius="10"
-                    android:text="@string/sem1"
+                    android:text="@string/bee"
                     android:textSize="20sp"
                     app:backgroundTint="@color/purple_200" />
 
@@ -91,9 +90,9 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius5"
                     android:shadowRadius="10"
-                    android:text="@string/sem1"
+                    android:text="@string/c"
                     android:textSize="20sp"
                     app:backgroundTint="@color/purple_200" />
 
@@ -104,9 +103,9 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius2"
                     android:shadowRadius="10"
-                    android:text="@string/sem1"
+                    android:text="@string/graphics"
                     android:textSize="20sp"
                     app:backgroundTint="@color/purple_200" />
 
@@ -123,9 +122,9 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius6"
                     android:shadowRadius="10"
-                    android:text="@string/sem1"
+                    android:text="@string/physicslab"
                     android:textSize="20sp"
                     app:backgroundTint="@color/purple_200" />
 
@@ -136,9 +135,9 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius4"
                     android:shadowRadius="10"
-                    android:text="@string/sem1"
+                    android:text="@string/clab"
                     android:textSize="20sp"
                     app:backgroundTint="@color/purple_200" />
 
@@ -149,9 +148,9 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius1"
                     android:shadowRadius="10"
-                    android:text="@string/sem1"
+                    android:text="@string/work"
                     android:textSize="20sp"
                     app:backgroundTint="@color/purple_200" />
             </LinearLayout>

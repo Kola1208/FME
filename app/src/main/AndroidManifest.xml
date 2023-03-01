@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.fme">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -17,5 +18,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".semester"></activity>
+        <activity android:name=".cse_sem1"></activity>
+        <activity android:name=".cseds_sem1"></activity>
+        <activity android:name=".cseai_sem1"></activity>
+        <activity android:name=".ece_sem1"></activity>
+        <activity android:name=".eee_sem1"></activity>
+        <activity android:name=".mech_sem1"></activity>
+        <activity android:name=".civil_sem1"></activity>
+        <activity android:name=".content"></activity>
+        <activity android:name=".display"></activity>
     </application>
 </manifest>
