@@ -1,4 +1,4 @@
-package com.example.fme;
+package com.audisankara.fme;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class mech_sem1 extends Activity {
+import com.example.fme.R;
+
+public class ece_sem1 extends Activity {
     TextView t1;
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9;
     Intent i;
@@ -16,7 +18,7 @@ public class mech_sem1 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mech);
+        setContentView(R.layout.ece_sem1);
         Bundle j=getIntent().getExtras();
         String semester=j.getString("semester");
         String department=j.getString("department");
@@ -33,16 +35,15 @@ public class mech_sem1 extends Activity {
         b9= findViewById(R.id.b9);
         b1.setOnClickListener(view -> {
             String subject=b1.getText().toString();
-            i = new Intent(mech_sem1.this, content.class);
+            i = new Intent(ece_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
         });
-        b2.setOnClickListener(
-                view -> {
+        b2.setOnClickListener(view -> {
             String subject=b2.getText().toString();
-            i = new Intent(mech_sem1.this, content.class);
+            i = new Intent(ece_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
@@ -50,7 +51,7 @@ public class mech_sem1 extends Activity {
         });
         b3.setOnClickListener(view -> {
             subject=b3.getText().toString();
-            i = new Intent(mech_sem1.this, content.class);
+            i = new Intent(ece_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
@@ -58,7 +59,7 @@ public class mech_sem1 extends Activity {
         });
         b4.setOnClickListener(view -> {
             subject=b4.getText().toString();
-            i = new Intent(mech_sem1.this, content.class);
+            i = new Intent(ece_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
@@ -66,30 +67,30 @@ public class mech_sem1 extends Activity {
         });
         b5.setOnClickListener(view -> {
             subject=b5.getText().toString();
-            i = new Intent(mech_sem1.this, content.class);
+            i = new Intent(ece_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
         });
-        b6.setOnClickListener(view -> {
+       /* b6.setOnClickListener(view -> {
             subject=b6.getText().toString();
-            i = new Intent(mech_sem1.this, content.class);
+            i = new Intent(ece_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
-        });
+        });*/
         b7.setOnClickListener(view -> {
             subject=b7.getText().toString();
-            i = new Intent(mech_sem1.this, content.class);
+            i = new Intent(ece_sem1.this, display.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
         });
         b8.setOnClickListener(view -> {
-            i = new Intent(mech_sem1.this, content.class);
+            i = new Intent(ece_sem1.this, display.class);
             subject=b8.getText().toString();
             i.putExtra("semester",semester);
             i.putExtra("department",department);
@@ -97,8 +98,8 @@ public class mech_sem1 extends Activity {
             startActivity(i);
         });
         b9.setOnClickListener(v -> {
-            i = new Intent(mech_sem1.this, content.class);
-            subject=b8.getText().toString();
+            i = new Intent(ece_sem1.this, display.class);
+            subject=b9.getText().toString();
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);

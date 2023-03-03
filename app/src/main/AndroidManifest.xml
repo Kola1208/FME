@@ -9,7 +9,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true">
-        <activity android:name=".mainactivity"
+        <activity android:name="com.audisankara.fme.splashscreen"
             android:exported="true"
             tools:ignore="WrongManifestParent">
             <intent-filter>
@@ -17,15 +17,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".semester"></activity>
-        <activity android:name=".cse_sem1"></activity>
-        <activity android:name=".cseds_sem1"></activity>
-        <activity android:name=".cseai_sem1"></activity>
-        <activity android:name=".ece_sem1"></activity>
-        <activity android:name=".eee_sem1"></activity>
-        <activity android:name=".mech_sem1"></activity>
-        <activity android:name=".civil_sem1"></activity>
-        <activity android:name=".content"></activity>
-        <activity android:name=".display"></activity>
+        <activity android:name="com.audisankara.fme.mainactivity"></activity>
+        <activity android:name="com.audisankara.fme.semester"></activity>
+        <activity android:name="com.audisankara.fme.cse_sem1"></activity>
+        <activity android:name="com.audisankara.fme.cseds_sem1"></activity>
+        <activity android:name="com.audisankara.fme.cseai_sem1"></activity>
+        <activity android:name="com.audisankara.fme.ece_sem1"></activity>
+        <activity android:name="com.audisankara.fme.eee_sem1"></activity>
+        <activity android:name="com.audisankara.fme.mech_sem1"></activity>
+        <activity android:name="com.audisankara.fme.civil_sem1"></activity>
+        <activity android:name="com.audisankara.fme.content"></activity>
+        <activity android:name="com.audisankara.fme.display"></activity>
+        <activity android:name="com.audisankara.fme.cse_sem2"></activity>
+        <activity android:name="com.audisankara.fme.cseai_sem2"></activity>
+        <activity android:name="com.audisankara.fme.cseds_sem2"></activity>
+        <activity android:name="com.audisankara.fme.ece_sem2"></activity>
+        <activity android:name="com.audisankara.fme.eee_sem2"></activity>
+        <activity android:name="com.audisankara.fme.civil_sem2"> </activity>
+        <activity android:name="com.audisankara.fme.mech_sem2"></activity>
     </application>
 </manifest>

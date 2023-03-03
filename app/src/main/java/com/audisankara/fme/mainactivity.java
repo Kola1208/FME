@@ -1,4 +1,4 @@
-package com.example.fme;
+package com.audisankara.fme;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import android.widget.Button;
 
+import com.example.fme.R;
 
 public class mainactivity extends Activity {
     Button b1,b2,b3,b4,b5,b6,b7;

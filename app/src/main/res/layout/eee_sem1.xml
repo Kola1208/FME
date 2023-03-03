@@ -11,12 +11,12 @@
             android:id="@+id/t1"
             android:layout_width="match_parent"
             android:layout_height="77dp"
-            android:background="#A45A2929"
+            android:background="#FBBCBD"
             android:gravity="center"
             android:lineSpacingExtra="8sp"
             android:paddingLeft="10sp"
             android:text="@string/depart"
-            android:textAllCaps="false"
+            android:textAllCaps="true"
             android:textColor="#000"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -34,7 +34,6 @@
                 android:paddingBottom="10dp">
 
                 <TextView
-                    android:id="@+id/t2"
                     android:layout_width="match_parent"
                     android:layout_height="38dp"
                     android:layout_marginTop="5sp"
@@ -42,8 +41,9 @@
                     android:capitalize="none"
                     android:gravity="center_vertical"
                     android:paddingLeft="10sp"
-                    android:text="threory"
-                    android:textSize="20sp"
+                    android:text="@string/th"
+                    android:textColor="#F44336"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -78,7 +78,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius2"
                     android:shadowRadius="10"
                     android:text="@string/english"
                     android:textSize="20sp"
@@ -91,9 +91,9 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius3"
                     android:shadowRadius="10"
-                    android:text="@string/bme"
+                    android:text="@string/bmce"
                     android:textSize="20sp"
                     app:backgroundTint="@color/purple_200" />
 
@@ -104,22 +104,9 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius4"
                     android:shadowRadius="10"
                     android:text="@string/c"
-                    android:textSize="20sp"
-                    app:backgroundTint="@color/purple_200" />
-
-                <Button
-                    android:id="@+id/b6"
-                    android:layout_width="350dp"
-                    android:layout_height="70dp"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
-                    android:shadowRadius="10"
-                    android:text="@string/bce"
                     android:textSize="20sp"
                     app:backgroundTint="@color/purple_200" />
 
@@ -127,7 +114,11 @@
                     android:id="@+id/t3"
                     android:layout_width="match_parent"
                     android:layout_height="31dp"
-                    android:text="TextView" />
+                    android:paddingLeft="10sp"
+                    android:text="@string/lb"
+                    android:textColor="#F44336"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/b7"
@@ -136,7 +127,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius6"
                     android:shadowRadius="10"
                     android:text="@string/chem_lab"
                     android:textSize="20sp"
@@ -149,7 +140,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius61"
                     android:shadowRadius="10"
                     android:text="@string/eng_lab"
                     android:textSize="20sp"
@@ -162,7 +153,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/radius"
+                    android:background="@drawable/radius7"
                     android:shadowRadius="10"
                     android:text="@string/clab"
                     android:textSize="20sp"

@@ -1,27 +1,27 @@
-package com.example.fme;
+package com.audisankara.fme;
 
-
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.fme.R;
 
-public class cse_sem1 extends Activity {
+public class mech_sem1 extends Activity {
     TextView t1;
-    Button b1,b2,b3,b4,b5,b6,b7,b8;
+    Button b1,b2,b3,b4,b5,b6,b7,b8,b9;
     Intent i;
     String subject;
-
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cse_sem1);
+        setContentView(R.layout.mech);
         Bundle j=getIntent().getExtras();
         String semester=j.getString("semester");
         String department=j.getString("department");
-        //Toast.makeText(this, department+semester, Toast.LENGTH_SHORT).show();
         t1= findViewById(R.id.t1);
         t1.setText(semester);
         b1= findViewById(R.id.b1);
@@ -32,18 +32,19 @@ public class cse_sem1 extends Activity {
         b6= findViewById(R.id.b6);
         b7= findViewById(R.id.b7);
         b8= findViewById(R.id.b8);
-
+        b9= findViewById(R.id.b9);
         b1.setOnClickListener(view -> {
             String subject=b1.getText().toString();
-            i = new Intent(cse_sem1.this, content.class);
+            i = new Intent(mech_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
         });
-        b2.setOnClickListener(view -> {
-           String subject=b2.getText().toString();
-            i = new Intent(cse_sem1.this, content.class);
+        b2.setOnClickListener(
+                view -> {
+            String subject=b2.getText().toString();
+            i = new Intent(mech_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
@@ -51,7 +52,7 @@ public class cse_sem1 extends Activity {
         });
         b3.setOnClickListener(view -> {
             subject=b3.getText().toString();
-            i = new Intent(cse_sem1.this, content.class);
+            i = new Intent(mech_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
@@ -59,7 +60,7 @@ public class cse_sem1 extends Activity {
         });
         b4.setOnClickListener(view -> {
             subject=b4.getText().toString();
-            i = new Intent(cse_sem1.this, content.class);
+            i = new Intent(mech_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
@@ -67,31 +68,39 @@ public class cse_sem1 extends Activity {
         });
         b5.setOnClickListener(view -> {
             subject=b5.getText().toString();
-            i = new Intent(cse_sem1.this, content.class);
+            i = new Intent(mech_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
         });
-        b6.setOnClickListener(view -> {
+       /* b6.setOnClickListener(view -> {
             subject=b6.getText().toString();
-            i = new Intent(cse_sem1.this, content.class);
+            i = new Intent(mech_sem1.this, content.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
-        });
+        });*/
         b7.setOnClickListener(view -> {
             subject=b7.getText().toString();
-            i = new Intent(cse_sem1.this, content.class);
+            i = new Intent(mech_sem1.this, display.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
         });
         b8.setOnClickListener(view -> {
-            i = new Intent(cse_sem1.this, content.class);
+            i = new Intent(mech_sem1.this, display.class);
             subject=b8.getText().toString();
+            i.putExtra("semester",semester);
+            i.putExtra("department",department);
+            i.putExtra("subject",subject);
+            startActivity(i);
+        });
+        b9.setOnClickListener(v -> {
+            i = new Intent(mech_sem1.this, display.class);
+            subject=b9.getText().toString();
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);

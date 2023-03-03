@@ -4,7 +4,7 @@
         android:id="@+id/t1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#8F9C27B0"
+        android:background="#D6CDEA"
         android:gravity="center_horizontal|center_vertical"
         android:textAllCaps="true"
         android:textColor="#000"
@@ -23,7 +23,7 @@
                     android:id="@+id/b1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#FF9877"
+                    android:background="@drawable/radius2"
                     android:padding="10dp">
 
                     <TextView
@@ -35,9 +35,9 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:text="@string/sy1"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
 
                     <ImageView
                         android:layout_width="70dp"
@@ -60,7 +60,7 @@
                     android:id="@+id/b2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#6FD3D3"
+                    android:background="@drawable/radius4"
                     android:padding="10dp">
 
                     <TextView
@@ -72,9 +72,9 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:text="@string/course"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
 
                     <ImageView
                         android:layout_width="70dp"
@@ -98,7 +98,7 @@
                     android:id="@+id/b3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#F1F158"
+                    android:background="@drawable/radius5"
                     android:padding="10dp">
 
                     <TextView
@@ -110,9 +110,9 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:text="@string/pp"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
 
                     <ImageView
                         android:layout_width="70dp"
@@ -136,7 +136,7 @@
                     android:id="@+id/b4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#F46969"
+                    android:background="@drawable/radius6"
                     android:padding="10dp">
 
                     <TextView
@@ -148,9 +148,9 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:text="@string/videos"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
 
                     <ImageView
                         android:layout_width="70dp"
@@ -186,9 +186,9 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:text="@string/qb"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
 
                     <ImageView
                         android:layout_width="70dp"
@@ -224,9 +224,9 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:text="@string/pq"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
 
                     <ImageView
                         android:layout_width="70dp"
@@ -262,9 +262,9 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="10dp"
                         android:text="@string/eb"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
 
                     <ImageView
                         android:layout_width="70dp"

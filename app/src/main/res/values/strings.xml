@@ -37,4 +37,19 @@
     <string name="pq">Previous Question</string>
     <string name="eb">E-Books</string>
     <string name="todo">happy</string>
+    <string name="th">Theory</string>
+    <string name="lb">Labs</string>
+    <string name="itmt">Integral transforms and Matrix theory</string>
+    <string name="bmce">Basic mechanical and civil engineering</string>
+    <string name="dss">Data structures</string>
+    <string name="dsl">Data structures Lab</string>
+    <string name="lara">Linear algebra and regression analysis</string>
+    <string name="p">Python programming</string>
+    <string name="pl">Python programming Lab</string>
+    <string name="mfds">Mathematical foundations for data science </string>
+    <string name="ms">Modern physics</string>
+    <string name="ct">circuit theory</string>
+    <string name="ec">Engineering chemistry</string>
+    <string name="em">Engineering mechanics</string>
+
 </resources>

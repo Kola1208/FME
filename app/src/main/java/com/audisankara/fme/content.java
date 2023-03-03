@@ -1,4 +1,4 @@
-package com.example.fme;
+package com.audisankara.fme;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 
 import androidx.annotation.Nullable;
+
+import com.example.fme.R;
 
 public class content extends Activity {
     TextView t1,t2,t3,t4,t5,t6,t7,t8;

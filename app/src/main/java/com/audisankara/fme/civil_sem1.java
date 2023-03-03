@@ -1,4 +1,4 @@
-package com.example.fme;
+package com.audisankara.fme;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.fme.R;
 
 public class civil_sem1 extends Activity {
     TextView t1;
@@ -75,7 +77,7 @@ public class civil_sem1 extends Activity {
         });
         b6.setOnClickListener(view -> {
             subject=b6.getText().toString();
-            i = new Intent(civil_sem1.this, content.class);
+            i = new Intent(civil_sem1.this,display.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
@@ -83,14 +85,14 @@ public class civil_sem1 extends Activity {
         });
         b7.setOnClickListener(view -> {
             subject=b7.getText().toString();
-            i = new Intent(civil_sem1.this, content.class);
+            i = new Intent(civil_sem1.this, display.class);
             i.putExtra("semester",semester);
             i.putExtra("department",department);
             i.putExtra("subject",subject);
             startActivity(i);
         });
         b8.setOnClickListener(view -> {
-            i = new Intent(civil_sem1.this, content.class);
+            i = new Intent(civil_sem1.this, display.class);
             subject=b8.getText().toString();
             i.putExtra("semester",semester);
             i.putExtra("department",department);
